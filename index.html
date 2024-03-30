@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sketch-Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <a href="" style="text-decoration: none;border-radius: 10px;">
+            <h1 class="gradient-text">Sketch/MEE!!</h1>
+        </a>
+        <div class="github">
+            <a href="https://github.com/gitsofaryan/Sketch-Me" style="text-decoration: none;">
+                <button id="github">Add ⭐ <img src="icons/github.png" class="logo-github"
+                        style="border-radius: 50%;"></button>
+            </a>
+            <a href="https://aryan-info.vercel.app/" style="text-decoration: none;">
+                <button id="github">Portfolio<img src="icons/profile.png" style="border-radius: 50%;"
+                        class="logo-github"></button>
+            </a>
+        </div>
+
+    </div>
+    <div class="container">
+        <section class="tools-board">
+            <div class="row">
+                <label class="title">Shapes</label>
+                <ul class="options">
+                    <li class="option tool" id="rectangle">
+                        <img src="icons/rectangle.svg" alt="">
+                        <span>Rectangle</span>
+                    </li>
+                    <li class="option tool" id="circle">
+                        <img src="icons/circle.svg" alt="">
+                        <span>Circle</span>
+                    </li>
+                    <li class="option tool" id="triangle">
+                        <img src="icons/triangle.svg" alt="">
+                        <span>Triangle</span>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="fill-color">
+                        <label for="fill-color">Fill color</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <label class="title">Options</label>
+                <ul class="options">
+                    <li class="option active tool" id="brush">
+                        <img src="icons/brush.svg" alt="">
+                        <span>Brush</span>
+                    </li>
+                    <li class="option tool" id="eraser">
+                        <img src="icons/eraser.svg" alt="">
+                        <span>Eraser</span>
+                    </li>
+                    <li class="option">
+                        <input type="range" id="size-slider" min="1" max="30" value="5">
+                    </li>
+                </ul>
+            </div>
+            <div class="row colors">
+                <label class="title">Colors</label>
+                <ul class="options">
+                    <li class="option"></li>
+                    <li class="option selected"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option">
+                        <input type="color" id="color-picker" value="#4A98F7">
+                    </li>
+                </ul>
+            </div>
+            <div class="row buttons">
+                <button class="clear-canvas">Clear Canvas</button>
+                <button class="save-img">Save As Image</button>
+            </div>
+        </section>
+        <section class="drawing-board">
+            <canvas></canvas>
+        </section>
+    </div>
+    <div class="footer">
+        <p>⭐Welcome to SketchMe, the platform designed for sketch enthusiasts, artists, designers, and anyone with a passion for creativity. More than just an editor, SketchCraft offers a comprehensive suite of tools and features to bring your ideas to life, whether you're sketching for fun, brainstorming concepts, or creating professional designs.</p>
+        <p>⭐Anyone with the passion of creativity and instant sketch to depict something or make the people understand your very idea's.We encourage everyone to regain your way of creativity with this small initiative. We encourage developers and open source contributors to contribute to our codebase for further best experience to user.</p>
+        <h4>ThanYou, ©️AryanJain | SketchMe</h4>
+    </div>
+</body>
+
+</html>
